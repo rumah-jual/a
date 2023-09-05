@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Cart side</title>
+
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<!-- Open Btn -->
+	<button id="open_cart_btn">
+		<img src="images/cart.svg" alt="" style="width: 30px;">
+	</button>
+
+	<!-- Item -->
+	<div class="items"></div>
+
+	<!-- backdrop -->
+	<div class="backdrop"></div>
+
+	<!-- Side Cart -->
+	<div id="sidecart" class="sidecart">
+		<div class="cart_content">
+			<!-- Cart header -->
+			<div class="cart_header">
+				<img src="images/cart.svg" alt="" style="width: 30px;"/>
+				<div class="header_title">
+					<h2>Your Cart</h2>
+					<span id="items_num">4</span>
+				</div>
+				<span id="close_btn" class="close_btn">&times;</span>
+			</div>
+			<!-- Cart Items -->
+			<div class="cart_items"></div>
+			<!-- Cart Actions -->
+			<div class="cart_actions">
+				<div class="subtotal">
+					<p>SUBTOTAL:</p>
+					<P>Rp.<span id="subtotal_price">100.000</span></P>
+				</div>
+				<button>View Cart</button>
+				<button>Checkout</button>
+
+			</div>
+		</div>
+	</div>    
+
+</body>
+</html>
